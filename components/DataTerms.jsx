@@ -2,9 +2,14 @@ import React from "react";
 
 function DataTerms() {
   return (
-    <div>
+    <div style={{
+      backgroundColor: "white",
+      padding: "20px 20px",
+      borderRadius: 4,
+      
+    }} id="data-terms">
       <h4>Behandling av personuppgifter </h4>
-      Vid kostnadsfria test och vid eventuell beställning samtycker jag till att
+      <p>Vid kostnadsfria test och vid eventuell beställning samtycker jag till att
       mina personuppgifter, inklusive namn, e-postadress, telefonnummer för
       samtal och sms och eventuella andra digitala adresser får lagras och
       användas inom Lime Technologies för digitala tjänster, marknadsföring, för
@@ -24,7 +29,7 @@ function DataTerms() {
       </a>{" "}
       <br />
       För ytterligare information om Limes behandling av personuppgifter,{" "}
-      <a href="https://lime-go.se/terms/terms-conditions/">läs mer här ></a>
+      <a href="https://lime-go.se/terms/terms-conditions/">läs mer här ></a></p>
     </div>
   );
 }

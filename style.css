@@ -50,7 +50,7 @@ li {
 
 h1 {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: -1px;
   line-height: 48px;
 }
@@ -96,20 +96,48 @@ body {
 }
 
 section {
-  padding: 20px 0px;
+  padding: 60px 0px;
 }
 section#maximize {
   padding: 60px 0px;
 }
 
+strong {
+  font-weight: 700;
+}
 
 @media(min-width:768px) {
   section {
-    padding: 120px 0px;
+    padding-bottom: 120px;
+  }
+  section#maximize, section#links {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+  section#maximize .col-md-6 {
+    padding: 10px 80px 40px 15px;
+  }
+  section#features {
+    padding-top: 160px;
   }
 }
 
-
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -120,6 +148,9 @@ section#maximize {
   padding: 20px 40px;
   border-radius: 4px;
   text-decoration: none;
+}
+.btn:hover{
+  color: white;
 }
 .btn-white {
   border: 1px solid transparent;
@@ -168,7 +199,7 @@ select {
 }
 
 ul li {
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 10px;
 }
 

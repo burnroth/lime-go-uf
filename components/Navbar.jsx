@@ -12,7 +12,7 @@ const Navbar = () => {
       }} className="container">
         <div className="row">
           <div className="col-12">
-            <a href=""><img src="/static/images/go.png" alt=""/></a>
+            <a href="/"><img src="/static/images/go.png" alt=""/></a>
           </div>
         </div>
       </div>

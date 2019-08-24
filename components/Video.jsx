@@ -4,15 +4,19 @@ const Video = () => {
   return (
     <section id="video">
       <div className="container">
-        <div className="row">
-          <div style={{ display: "flex", justifyContent: "center" }} className="col-12">
-            <iframe
-              
-              src="https://www.youtube.com/embed/US8ulGibiMk"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+        <div style={{ display: "flex", justifyContent: "center" }} className="row">
+          <div
+            
+            className="col-12 col-md-10"
+          >
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe
+                className="embed-responsive-item"
+                src="https://www.youtube.com/embed/US8ulGibiMk"
+                frameBorder="0"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </div>
